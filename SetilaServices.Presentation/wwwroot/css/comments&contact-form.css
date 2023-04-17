@@ -1,0 +1,322 @@
+}
+.wpcf7-form .wpcf7-select {
+	font-family: tahoma;
+	height: 25px;
+	width: 235px;
+	padding:0;
+}
+.wpcf7-form .wpcf7-select option {
+	padding:5px;
+}
+.wpcf7-checkbox, .wpcf7-radio {
+	margin:10px 10px 0 0;
+	display:block;
+}
+.wpcf7-checkbox .wpcf7-list-item, .wpcf7-radio .wpcf7-list-item {
+	margin-left:10px;
+}
+.wpcf7-checkbox .wpcf7-list-item input, .wpcf7-radio .wpcf7-list-item input, .wpcf7-form .wpcf7-acceptance {
+	float:none;
+	margin:0;
+	background:none;
+	border:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	width:16px;
+}
+.wpcf7-quiz-label {
+	float:right;
+	margin:14px 0 0 12px;
+ *margin:0 0 0 12px;
+}
+.wpcf7-form .wpcf7-acceptance {
+	margin:4px 0 0 10px;
+	background:none;
+	border:none;
+}
+.wpcf7-form .wpcf7-file {
+	background:none;
+	border:none;
+	cursor:pointer;
+}
+.cptch_block {
+	direction:rtl;
+	float:none !important;
+	clear:both !important;
+}
+.your-email input {
+	text-align:left;
+}
+.wpcf7-checkbox .wpcf7-list-item input, .wpcf7-radio .wpcf7-list-item input, .wpcf7-form .wpcf7-acceptance {
+	float:none;
+	margin:0;
+	background:none;
+	border:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	width:16px;
+}
+p input[type="checkbox"] {
+	float:none;
+}
+/*
+=wpcf7-form, comment-form
+----------------------------------------------------*/
+#twosweb-comment, .wpcf7 {
+	margin:35px 0;
+}
+#form-title {
+	color:#454545;
+	font-size:17px;
+	line-height:33px;
+	padding-right:50px;
+	margin-bottom:24px;
+	background:url(images/icon.png) no-repeat right -80px;
+}
+p.nocomments {
+	margin-bottom:8px;
+}
+ol.commentlist {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ol.commentlist li {
+	border:1px solid #d5d5d5;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-khtml-border-radius:5px;
+	margin:0 0 10px;
+	padding:8px 7px;
+	position:relative;
+	background:#fff;
+	overflow:hidden;
+}
+ol.commentlist li.pingback comment-author {
+	padding:0 170px 0 0;
+}
+ol.commentlist .comment-body {
+	overflow:hidden;
+}
+ol.commentlist .comment-body em {
+	font-style:normal;
+}
+ol.commentlist li div.vcard {
+	overflow:hidden;
+	width:310px;
+	float:right;
+}
+ol.commentlist li div.vcard cite.fn a.url {
+	color:#cc0000;
+	text-decoration:none;
+}
+ol.commentlist li div.vcard cite.fn a.url:hover {
+	color:#000;
+}
+ol.commentlist li div.vcard img.avatar {
+	background: #fff;
+	border:1px solid #aaa;
+	padding: 5px;
+	float:right;
+	margin:0 0 10px 10px;
+}
+ol.commentlist li div.comment-meta {
+	float:left;
+	margin:15px 0;
+}
+ol.commentlist li div.comment-meta a {
+	color:#a94545;
+	text-decoration:none;
+}
+ol.commentlist li p {
+	margin-bottom:12px;
+	float:right;
+	clear:both;
+}
+ol.commentlist li ul {
+	font-weight:normal;
+	line-height: 16px;
+	font-family:tahoma;
+	list-style:square;
+	margin:0 0 12px;
+	padding:0;
+}
+ol.commentlist li div.reply {
+    background:#a94545;
+	border-color:#a94545;
+	
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-o-border-radius:2px;
+	-khtml-border-radius:2px;
+	font-weight:bold;
+	font-family:tahoma;
+	color:#fff;
+	padding:7px;
+	text-align:center;
+/*	width:58px;*/
+	float:left;
+	clear:both;
+	font-size:0.9em;
+	margin-bottom:10px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+ol.commentlist li div.reply:hover {
+    background:#999;
+	border:1px solid #666;
+	
+}
+ol.commentlist li div.reply a {
+	color:#fff;
+	text-decoration:none;
+}
+ol.commentlist li ul.children {
+	list-style:none;
+	margin:12px 0 0;
+	text-indent:0;
+}
+ol.commentlist li ul.children li.depth-2 {
+	margin:0 0 3px;
+}
+ol.commentlist li ul.children li.depth-3 {
+	margin:0 0 3px;
+}
+ol.commentlist li ul.children li.depth-4 {
+	margin:0 0 3px;
+}
+ol.commentlist li ul.children li.depth-5 {
+	margin:0 0 3px;
+}
+ol.commentlist ul.children li.odd {
+	background:#f7f7f7;
+}
+ol.commentlist ul.children li.even {
+	background:#f8f8f8;
+}
+ol.commentlist li.pingback div.vcard {
+	padding:0 170px 0 0;
+}
+#comments {
+	color:#454545;
+	font-size:16px;
+	margin-bottom:12px;
+	padding:0 10px;
+	font-weight:normal;
+	line-height:20px;
+}
+#respond {
+	padding:0 10px;
+}
+#respond h3 {
+	margin-bottom:8px;
+}
+#respond h3 span {
+	color:#454545;
+	display:block;
+	line-height:28px;
+	font-size:16px;
+    font-weight: bold !important;
+	font-weight:normal;
+}
+#commentform, .wpcf7-form {
+	overflow:hidden;
+}
+#commentform p, .wpcf7-form p {
+	overflow:hidden;
+	color:#919191;
+	margin-bottom:16px;
+	float:right;
+}
+p .wpcf7-select:parent {
+float:none;
+}
+#commentform label {
+	display:block;
+	margin-bottom:16px;
+}
+#commentform input, #commentform textarea, .wpcf7-form input, .wpcf7-form textarea, .wpcf7-form .wpcf7-select {
+	float:right;
+	padding:3px 8px;
+	color:#919191;
+	margin-left:24px;
+/*	font-family:tahoma;*/
+	background:#fff;
+    font-size: 13px;
+/*
+	border:1px solid #b8b8b8;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-o-border-radius:4px;
+	-khtml-border-radius:4px;
+	-moz-box-shadow:0 -2px 5px #ccc inset;
+	-webkit-box-shadow:0 -2px 5px #ccc inset;
+	box-shadow:0 -2px 5px #ccc inset;
+*/
+     -moz-box-shadow: inset 0 0 7px #999;
+    -webkit-box-shadow: inset 0 0 7px #999;
+    box-shadow: inset 0 0 7px #999;
+    border: 0;
+    border-radius: 2px;
+	width:91%;
+	height:28px;
+}
+#commentform input:hover, #commentform textarea:hover, .wpcf7-form input:hover, .wpcf7-form textarea:hover, .wpcf7-form .wpcf7-select:hover {
+/*	border:1px solid #a94545;*/
+}
+#commentform input:focus, #commentform textarea:focus, .wpcf7-form input:focus, .wpcf7-form textarea:focus, .wpcf7-form .wpcf7-select:focus {
+/*	border-color:#7ba1b3;*/
+}
+#commentform textarea, .wpcf7-form textarea {
+	width:100%;
+	padding:8px;
+	height:250px;
+}
+#commentform #submit, .wpcf7-form .wpcf7-submit {
+	color:#fff;
+	cursor:pointer;
+	padding:2px 8px;
+	width:110px;
+    height: 35px;
+    line-height: 23px;
+	font-weight:bold;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ededed+100 */
+background: #f0ad4e; 
+    border: 0;
+    border-bottom: 3px solid #f0994e;
+    border-radius: 4px;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+}
+#commentform #submit:hover, .wpcf7-form .wpcf7-submit:hover {  
+    
+background: #E67E22;
+
+}
+.wpcf7-form .wpcf7-file {
+	border:none !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	background:none !important;
+}
+.cancel-comment-reply {
+	margin-bottom:10px;
+}
+#commentform #url, #commentform #email, .wpcf7-validates-as-email {
+	text-align:left;
+}
+#commentform .cptch_block input {
+	margin-top:0;
+	float:none;

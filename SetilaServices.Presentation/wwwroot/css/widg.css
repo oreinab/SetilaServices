@@ -1,0 +1,163 @@
+﻿/*
+=widg
+--------------------------------------*/
+.widg {
+	border:1px solid #ededed;
+	width:258px;
+	margin-bottom:16px;
+	padding:6px 0 16px;
+}
+.widg-title {
+	color:#666;
+	line-height:40px;
+	font-size:1.5em;
+	text-align:center;
+	border-right:4px solid #a94545;
+	border-left:4px solid #a94545;
+}
+.widg-content {
+	border-top:1px solid #ededed;
+	margin:0 20px;
+	padding-top:10px;
+}
+.widg-content ul li {
+	line-height:20px;
+	padding:10px 0;
+	border-bottom:1px solid #ededed;
+	cursor:pointer;
+}
+.widg-content ul li a, #widg-category .widg-content li:hover .children li a, .widg-content .menu li:hover ul li a {
+	color:#9f9f9f;
+}
+.widg-content ul li:hover a, #widg-category .widg-content li .children li a:hover, .widg-content .menu li ul li a:hover {
+	color:#a94545;
+}
+/*
+=widg-category
+--------------------------------------*/
+#widg-category .widg-content ul {
+	margin-right:5px;
+}
+#widg-category .widg-content ul .cat-item {
+	border:none;
+	list-style:circle inside;
+	padding:3px 0;
+	color:#a94545;
+}
+#widg-category .widg-content li .children {
+	margin-right:10px;
+}
+#widg-category .widg-content li .children li {
+	list-style:disc inside;
+}
+#widg-category .widg-content li .children li ul li {
+	list-style:square inside;
+}
+/*
+=widg tagcloud
+--------------------------------------*/
+.widg-content .tagcloud {
+	overflow:hidden;
+}
+.widg-content .tagcloud a {
+	float:right;
+	display:block;
+	background:#7ba1b3;
+	color:#fff;
+	margin:0 0 6px 6px;
+	line-height:24px;
+	padding:5px 10px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.widg-content .tagcloud a:hover {
+	background:#a94545;
+}
+/*
+=widg menu
+--------------------------------------*/
+.widg-content .menu li {
+	border:none;
+	padding:3px 0;
+	color:#a94545;
+}
+.widg-content .menu li ul {
+	margin-right:10px;
+}
+.widg-content .menu li ul li {
+	list-style:square inside;
+}
+.widg-content .menu li ul li ul li {
+	list-style:disc inside;
+}
+/*
+=textwidget
+--------------------------------------*/
+.widg-content .textwidget {
+	color:#9f9f9f;
+}
+.widg-content .textwidget a {
+	color:#a94545;
+}
+.widg-content .textwidget a:hover {
+	color:#7ba1b3;
+}
+/*
+=rsswidget
+--------------------------------------*/
+.widg-title .rsswidget {
+	color:#666;
+}
+.widg-title .rsswidget img {
+	margin-left:4px;
+}
+/*
+=calendar_wrap
+--------------------------------------*/
+#wp-calendar {
+	width:100%;
+	line-height:24px;
+}
+#wp-calendar caption {
+	text-align: center;
+	font-size:1.7em;
+	font-weight:normal;
+	margin-bottom:5px;
+	color:#666;
+}
+#wp-calendar thead th {
+	background:#a94545;
+	width: 24px;
+	color: #fff;
+	text-align: center;
+}
+#wp-calendar tbody td {
+	color: #9f9f9f;
+	border: 1px solid #ededed;
+	text-align: center;
+}
+#wp-calendar tbody td a {
+	color: red;
+}
+#wp-calendar tfoot td a {
+	color: red;
+}
+/*
+=widg-img
+--------------------------------------*/
+.widg-img li {
+	overflow:hidden;
+}
+.widg-img li .widg-thumb {
+	float:right;
+	margin-left:5px;
+	width:66px;
+	height:66px;
+	border:1px solid #b8b8b8;
+}
+.widg-img li .widg-thumb img {
+	width:66px;
+	height:66px;
+}

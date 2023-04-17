@@ -1,0 +1,74 @@
+.filtr-container {direction:ltr; }
+.filtr-item {
+    padding: 1rem;
+}
+.simplefilter {
+    margin: 10px auto;
+    display: table;
+ }
+.filtr-container .filtr-item img {
+width:100%;
+height:180px;
+margin:auto;
+ }
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+transition:all .4s;
+-webkit-transition:all .4s;
+-moz-transition:all .4s;
+-o-transition:all .4s;
+}
+.filtr-container .filtr-item:hover .item-desc {
+    background-color: rgba(0,0,0,0.8);
+    color: yellow;
+ }
+
+/* Filter controls */
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #212121;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+  text-transform: uppercase;
+}
+.sortandshuffle .shuffle-btn {
+    background-color: #dec800;
+}
+.sortandshuffle .sort-btn {
+    background-color: #de0000;
+}
+.sortandshuffle .sort-btn.active {
+    background-color: #9d0000;
+}
+
+/* Search control */
+.search-row {
+    margin-left: 2.5rem;
+}
+.filtr-search {
+    padding: 0.5rem;
+    text-transform: uppercase;
+}

@@ -1,0 +1,182 @@
+/*
+Author: توس وب
+Author URI: http://2sweb.ir
+*/
+@font-face {
+	font-family: IRANSans-b;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans-m;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb.eot');
+	src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSans-n;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/fonts-number/eot/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('../fonts/eot/fonts-number/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/fonts-number/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/fonts-number/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/fonts-number/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+
+
+/* Reset HTML Elements *//* ----------------------------------------- */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin:0;
+	padding:0;
+}
+article, aside, figure, footer, header, hgroup, nav, section {
+	display: block
+}
+::selection {
+ background:#a94545;
+ color:#fff;
+}
+::-moz-selection {
+ background:#a94545;
+ color:#fff;
+}
+::-webkit-selection {
+ background:#a94545;
+ color:#fff;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	padding: 0;
+	margin: 0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+ul li {
+	list-style:none;
+}
+caption, th {
+	text-align:right;
+	font-weight:bold;
+}
+q:before, q:after {
+	content:'';
+}
+* {
+	outline: none;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+a img {
+	border:0;
+}
+/*-General Styles------------------------------------------*/
+
+a, a:visited {
+	text-decoration:none;
+/*	color:#a94545;*/
+}
+a:hover {
+	text-decoration:none;
+}
+p {
+	line-height:30px;
+	direction: rtl;
+	font-family: IRANSans, tahoma, sans-serif;
+}
+p a, p a:visited {
+	text-decoration:none;
+}
+.clearfix:after {
+	content: '';
+	clear:both;
+}
+.clearfix {
+	zoom: 1; /* IE 6/7 */
+}
+.clear {
+	clear:both;
+}
+h1, h2, h3, h4, h5, h6, figcaption,pre {
+    font-family: 'IRANSans-m', tahoma;
+}
+h1 {
+font-size:28px;
+line-height:50px;
+}
+h2 {
+font-size:25px;
+line-height:46px;
+}
+h3 {
+font-size:23px;
+line-height:38px;
+}
+h4 {
+font-size:19px;
+line-height:42px;
+}
+h5 {
+font-size:17px;
+line-height:38px;
+}
+h6 {
+font-size:14px;
+line-height:37px;
+}
+.alignright {
+	display:inline;
+	float:right;
+	text-align:right;
+}
+.alignleft {
+	display:inline;
+	float:left;
+	text-align:left;
+}
+.aligncenter {
+	display:block;
+	margin:0 auto;
+	text-align:center;
+}
+
+input[type="submit"], input[type="button"] {
+	cursor:pointer;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
